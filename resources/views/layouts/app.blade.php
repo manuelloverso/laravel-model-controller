@@ -19,11 +19,11 @@
 
     @include('partials.header')
 
-    <main>
+    <main class="mb-4">
         @yield('content')
     </main>
 
-    @include('partials.header')
+    @include('partials.footer')
 
 
 </body>

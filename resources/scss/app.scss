@@ -1,1 +1,10 @@
-@import '~bootstrap/scss/bootstrap';
+@use "partials/header";
+@use "partials/main";
+
+@import "~bootstrap/scss/bootstrap";
+
+$dark-bg: #212529;
+
+body {
+    background-color: $dark-bg;
+}
